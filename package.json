@@ -61,9 +61,12 @@
     "prettier": "^3.5.3"
   },
   "dependencies": {
+    "@octokit/request-error": "^6.1.8",
+    "@vercel/speed-insights": "^1.2.0",
     "axios": "^1.9.0",
     "dotenv": "^16.5.0",
     "emoji-name-map": "^1.2.8",
+    "express": "^5.1.0",
     "github-username-regex": "^1.0.0",
     "upgrade": "^1.1.0",
     "word-wrap": "^1.2.5"

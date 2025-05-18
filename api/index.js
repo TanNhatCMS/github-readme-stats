@@ -6,7 +6,7 @@ import {
   parseArray,
   parseBoolean,
   renderError,
-} from "../src/common/utils.js";
+} from "../src/index.js";
 import { fetchStats } from "../src/fetchers/stats-fetcher.js";
 import { isLocaleAvailable } from "../src/translations.js";
 

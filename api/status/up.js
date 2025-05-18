@@ -6,7 +6,7 @@
  */
 
 import retryer from "../../src/common/retryer.js";
-import { logger, request } from "../../src/common/utils.js";
+import { logger, request } from "../../src/index.js";
 
 export const RATE_LIMIT_SECONDS = 60 * 5; // 1 request per 5 minutes
 
