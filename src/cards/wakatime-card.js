@@ -447,3 +447,4 @@ const renderWakatimeCard = (stats = {}, options = { hide: [] }) => {
 };
 
 export { renderWakatimeCard };
+export default renderWakatimeCard;

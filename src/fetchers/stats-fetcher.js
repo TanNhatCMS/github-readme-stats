@@ -329,3 +329,4 @@ const fetchStats = async (
 };
 
 export { fetchStats };
+export default fetchStats;

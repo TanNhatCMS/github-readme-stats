@@ -149,3 +149,4 @@ const renderGistCard = (gistData, options = {}) => {
 };
 
 export { renderGistCard, HEADER_MAX_LENGTH };
+export default renderGistCard;

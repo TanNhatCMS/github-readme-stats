@@ -163,3 +163,4 @@ const fetchTopLanguages = async (
 };
 
 export { fetchTopLanguages };
+export default fetchTopLanguages;
