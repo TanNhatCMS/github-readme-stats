@@ -77,7 +77,6 @@ const getPATInfo = async (fetcher, variables) => {
             message: errors[0].message,
           },
         };
-
       } else if (isRateLimited) {
         const date1 = new Date();
         const date2 = new Date(response.data?.data?.rateLimit?.resetAt);
