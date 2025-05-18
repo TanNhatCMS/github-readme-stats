@@ -1,11 +1,11 @@
-import { renderWakatimeCard } from "../src/cards/wakatime-card.js";
+import { renderWakatimeCard } from "../src/index.js";
 import {
   clampValue,
   CONSTANTS,
   parseArray,
   parseBoolean,
   renderError,
-} from "../src/common/utils.js";
+} from "../src/index.js";
 import { fetchWakatimeStats } from "../src/fetchers/wakatime-fetcher.js";
 import { isLocaleAvailable } from "../src/translations.js";
 

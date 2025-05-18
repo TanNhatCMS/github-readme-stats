@@ -5,7 +5,7 @@ import {
   CONSTANTS,
   parseBoolean,
   renderError,
-} from "../src/common/utils.js";
+} from "../src/index.js";
 import { fetchRepo } from "../src/fetchers/repo-fetcher.js";
 import { isLocaleAvailable } from "../src/translations.js";
 
