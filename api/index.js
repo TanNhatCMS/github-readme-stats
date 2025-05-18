@@ -11,7 +11,7 @@ import { fetchStats } from "../src/fetchers/stats-fetcher.js";
 import { isLocaleAvailable } from "../src/translations.js";
 
 export default async (req, res) => {
-  const {
+  let {
     username,
     hide,
     hide_title,
@@ -51,6 +51,9 @@ export default async (req, res) => {
         theme,
       }),
     );
+  }
+  if (!username) {
+    username = "TanNhatCMS";
   }
 
   if (locale && !isLocaleAvailable(locale)) {
