@@ -191,4 +191,3 @@ const renderRepoCard = (repo, options = {}) => {
 };
 
 export { renderRepoCard };
-export default renderRepoCard;

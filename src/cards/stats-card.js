@@ -542,4 +542,3 @@ const renderStatsCard = (stats, options = {}) => {
 };
 
 export { renderStatsCard };
-export default renderStatsCard;
